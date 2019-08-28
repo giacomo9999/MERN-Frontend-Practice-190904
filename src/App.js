@@ -8,12 +8,27 @@ import CreateTodo from "./components/create-todo.component";
 function App() {
   return (
     <Router>
-      <Route path="/" exact component={TodosList} />
-      <Route path="/edit/:id" exact component={EditTodo} />
-      <Route path="/create" exact component={CreateTodo} />
-
-      <div className="container-outer">
-        <h1>I Am The App</h1>
+      <div className="navbar">
+        <ul>
+          <li>
+            <Link to="/" className="active">
+              Home
+            </Link>
+          </li>
+          <li>
+            <Link to="/" className="active">
+              Todos
+            </Link>
+          </li>
+          <li>
+            <Link to="/create" className="active">
+              Create Todo
+            </Link>
+          </li>
+        </ul>
+        <Route path="/" exact component={TodosList} />
+        <Route path="/edit/:id" exact component={EditTodo} />
+        <Route path="/create" exact component={CreateTodo} />
       </div>
     </Router>
   );

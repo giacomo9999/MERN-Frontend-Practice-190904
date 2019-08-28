@@ -1,6 +1,6 @@
 /* -- Green
 Green 0: #8EFFC1
-Green 1: #5EFCA1
+Green 1: #5EFCA1 down 20%: #6feba4
 Green 2: #4EEC91
 Green 3: #3EDC81
 Green 4: #2ECC71
@@ -11,6 +11,7 @@ Green 8: #008C31
 Green 9: #007C21
 Green 10: #006C11
 Green 11: #005C01
+Green 12: #003301
 */
 
 /* Paste in <head> of index.html */
@@ -61,7 +62,7 @@ h4 {
   padding: 10px;
   margin: 20px auto 10px;
   /* background color 5 */
-  background-color: #009C41;
+  background-color: #009c41;
   border-radius: 5px;
 }
 
@@ -69,7 +70,7 @@ h4 {
   width: 85%;
   margin: 10px auto 5px;
   /* background color 2 */
-  background-color: #4EEC91;
+  background-color: #1EBC61;
   padding: 10px;
   border-radius: 5px;
 }
@@ -94,31 +95,6 @@ li {
   /* color 0 */
   color: #1c2a39;
 }
-
-/* Tables: */
-
-/* table {
-  width: 50%;
-  background-color: white;
-  border-collapse: collapse;
-  width: 100%;
-  padding: 20px;
-}
-
-th {
-  font-weight: 500;
-  text-align: left;
-  padding: 4px;
-}
-
-td {
-  text-align: left;
-  padding: 4px;
-}
-
-tr:nth-child(even) {
-  background-color:  #C5D3E2;
-} */
 
 table {
   padding: 10px;
@@ -208,4 +184,32 @@ button {
 .h-form .h-btn:active {
   /* background color 4 */
   background-color: #5c6a79;
+}
+
+/* Navbar */
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+  overflow: hidden;
+  width: 100%;
+  background-color: #003301;
+}
+
+.navbar li {
+  float: left;
+}
+
+.navbar li a {
+  font-weight: 400;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar li a:hover {
+  color: #4EEC91;
 }
