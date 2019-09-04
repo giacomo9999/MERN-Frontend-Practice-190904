@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import axios from "axios";
 
 class CreateTodo extends Component {
   constructor(props) {
@@ -23,6 +24,9 @@ class CreateTodo extends Component {
   submitForm = () => {
     // this.props.handleSubmit(this.state);
     console.log("Data submitted", this.state);
+    axios
+      .post("http://localhost:4000/todos/add", this.state)
+      .then(res => console.log(res.data));
     this.setState(this.initialState);
   };
 
