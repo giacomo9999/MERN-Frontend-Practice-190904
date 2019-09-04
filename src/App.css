@@ -67,7 +67,7 @@ h4 {
 }
 
 .container-inner {
-  width: 85%;
+  width: 30%;
   margin: 10px auto 5px;
   /* background color 2 */
   background-color: #1EBC61;
@@ -141,7 +141,7 @@ button {
   width: 50%;
   margin: 25px auto;
   /* border color 9 */
-  border: 1px solid #acbac9;
+  border: 1px solid white;
   padding: 15px;
   box-sizing: border-box;
 }
@@ -151,7 +151,7 @@ button {
   padding: 7px;
   box-sizing: border-box;
   /* background color 8 */
-  background-color: #9caab9;
+  background-color:#6feba4;
 }
 
 .h-form .h-input {
@@ -165,7 +165,7 @@ button {
 
 .h-form .h-btn {
   /* background color 6 */
-  background-color: #7c8a99;
+  background-color: #006C11;
   color: white;
   display: block;
   margin: 15px auto;
@@ -177,13 +177,13 @@ button {
 
 .h-form .h-btn:hover {
   /* background color 8 */
-  background-color: #9caab9;
+  background-color: #6feba4;
   cursor: pointer;
 }
 
 .h-form .h-btn:active {
   /* background color 4 */
-  background-color: #5c6a79;
+  background-color: #6feba4;
 }
 
 /* Navbar */
