@@ -57,6 +57,10 @@ h4 {
   color: black;
 }
 
+.completed {
+  text-decoration: line-through;
+}
+
 .container-outer {
   width: 30%;
   padding: 10px;
@@ -100,14 +104,14 @@ table {
   padding: 10px;
   margin: 10px auto 20px;
   width: 95%;
-  background-color: #8EFFC1;
+  background-color: #8effc1;
 }
 
 th {
   text-align: left;
   font-weight: 400;
   /* color 0 */
-  color:#006C11;
+  color: #006c11;
 }
 
 tr {

@@ -15,6 +15,7 @@ const Todo = props => (
 
 class TodosList extends Component {
   state = { todos: [] };
+  
   componentDidMount() {
     axios
       .get("http://localhost:4000/todos/")
@@ -29,6 +30,7 @@ class TodosList extends Component {
       return <Todo todo={entry} key={index} />;
     });
   };
+
   render() {
     console.log("Data In: ", this.state);
     return (

@@ -28,6 +28,7 @@ class CreateTodo extends Component {
       .post("http://localhost:4000/todos/add", this.state)
       .then(res => console.log(res.data));
     this.setState(this.initialState);
+    this.props.history.push("/");
   };
 
   render() {
